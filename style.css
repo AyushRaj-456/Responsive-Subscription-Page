@@ -1,0 +1,186 @@
+/* Created by AYUSH RAJ*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.head{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:"Poppins", sans-serif;
+    height:77px;
+    font-variant:bold;
+    letter-spacing:2px;
+    font-size:18px;
+    background:#0083ff;
+    font-weight:700;
+    color:#060720;
+}
+
+.subsc{
+    background-color:#060720;
+}
+
+.plan1{
+    margin-left:15px;
+    font-size:20px;
+    
+    font-family:"Poppins", sans-serif;
+    color:white;
+}
+
+
+.plan2{
+    margin-left:15px;
+    font-size:22px;
+    font-weight:bold;
+    font-family:"Poppins", sans-serif;
+    color:#0083ff;
+}
+
+ul li{
+    color:#fff;
+    font-size:15px;
+    list-style-type:none;
+    margin-left:20px;
+    font-family:'Poppins', sans-serif;
+}
+
+#check{
+    
+    color:#0083ff;
+    padding:0px 15px;
+}
+
+.sub1{
+    color:#0083ff;
+    font-size:20px;
+    
+    font-family:'Poppins', sans-serif;
+}
+.p1{
+    font-size:18px;
+    color:#fff;
+    font-weight:500;
+    font-family:'Poppins', sans-serif;
+}
+
+#phn{
+    font-size:50px;
+    padding:0px 8px;
+}
+
+.out1{
+    font-family:'Syne', sans-serif;
+    color:#fff;
+    margin-left:10px;
+}
+.g{
+    color:#0083ff;
+    font-weight:bold;
+}
+.better{
+    color:#00ff1a;
+    font-weight:bold;
+}
+.best{
+    color:#ff2400;
+    
+    font-weight:bold;
+}
+
+.sub2{
+    color:#00ff1a;
+    font-size:20px;
+    
+    font-family:'Poppins', sans-serif;
+}
+
+.sub3{
+    color:#ff2400;
+    font-size:20px;
+    
+    font-family:'Poppins', sans-serif;
+}
+
+.lb{
+    color:#060720;
+    width:280px;
+    height:50px;
+    background-color:#0083ff;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Poppins', sans-serif;
+    cursor:pointer ;
+    
+}
+.lbb{
+    color:#060720;
+    width:280px;
+    height:50px;
+    background-color: #0083ff ;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    cursor:pointer ;
+}
+
+.lb:hover{
+    background-color:#2c93f5;
+}
+
+.lbb:hover{
+    background-color:#2c93f5;
+}
+
+@keyframes line{
+    50%{
+        width:90%;
+    }
+}
+
+.line3{
+    width:10%;
+    height:0px;
+    border:1px solid #1e294b;
+    animation: 2s line linear infinite;
+}
+
+
+footer{
+    color:grey;
+    font-family:"Poppins", sans-serif;
+    font-size:13px;
+}
+
+.fut{
+    color:#0083ff;
+    font-weight:700;
+}
+
+#i, #f, #t, #l{
+    font-size:20px;
+    margin:0px 12px;
+    color:grey;
+    cursor:pointer;
+    }
+#l:hover{
+    color:rgba(255,255,255,1);
+}
+
+#i:hover{
+    color:rgba(255,255,255,1);
+}
+#f:hover{
+    color:rgba(255,255,255,1);
+}
+#t:hover{
+    color:rgba(255,255,255,1);
+}
